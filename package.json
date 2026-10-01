@@ -1,6 +1,7 @@
 {
-  "name": "music-bot",
+  "name": "music-guy",
   "version": "1.0.0",
+  "description": "Discord bot that sends random sounds",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
