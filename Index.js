@@ -26,7 +26,7 @@ client.once('ready', () => {
 client.on('messageCreate', async (message) => {
     if (message.author.bot) return;
 
-    if (message.content === '!Music') {
+    if (message.content === 'Музыка') {
         const soundsDir = './Sounds';
         if (!fs.existsSync(soundsDir)) {
             message.reply('Папка Sounds не найдена.');
