@@ -10,7 +10,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = process.env.TOKEN;
+const Token = process.env.TOKEN;
 
 if (!TOKEN) {
     console.error('❌ Токен не найден! Добавь TOKEN в секреты GitHub.');
